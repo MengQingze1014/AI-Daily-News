@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+.prose h1 { @apply text-3xl font-bold mb-6 text-gray-900; }
+.prose h2 { @apply text-2xl font-bold mt-10 mb-4 text-gray-800 border-b pb-2; }
+.prose h3 { @apply text-xl font-bold mt-6 mb-3 text-gray-800; }
+.prose p { @apply text-gray-600 leading-relaxed mb-4; }
+.prose ul { @apply list-disc pl-6 mb-4 space-y-2; }
+.prose li { @apply text-gray-600; }
+.prose a { @apply text-emerald-600 hover:underline font-medium; }
+.prose hr { @apply my-8 border-gray-200; }
+.prose blockquote { @apply border-l-4 border-emerald-200 pl-4 italic text-gray-500 my-6; }

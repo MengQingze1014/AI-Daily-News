@@ -1,0 +1,5 @@
+{
+  "name": "AI Daily Report Agent",
+  "description": "Automated AI intelligence gathering agent that summarizes YouTube, X/Twitter, and TechCrunch news into a Chinese daily digest.",
+  "requestFramePermissions": []
+}
